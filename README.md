@@ -16,7 +16,7 @@ foxrpt
 
 # config
 
-please edit the config file and provide your repositories directory and so on
+Please edit the config file and provide your repositories directory and so on
 
 ```js
 // ./config/index.js
