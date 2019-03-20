@@ -1,0 +1,42 @@
+{
+    "name": "@foxtail/weekly-report-git",
+    "version": "1.0.0",
+    "description": "This is an automated reporting tool for my weekly report",
+    "main": "./bin/index.js",
+    "bin": {
+        "foxrpt": "./bin/index.js"
+    },
+    "scripts": {
+        "start": "node ./bin/index.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/viccici/weekly-report.git"
+    },
+    "keywords": [
+        "weekly",
+        "git",
+        "reporting",
+        "automated"
+    ],
+    "author": "viccici",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/viccici/weekly-report/issues"
+    },
+    "homepage": "https://github.com/viccici/weekly-report#readme",
+    "dependencies": {
+        "d3-node": "^1.0.3",
+        "d3node-output": "^0.0.9",
+        "markdown-it": "^8.4.2",
+        "markvis": "^0.0.12",
+        "node-webshot": "^1.0.3",
+        "nodegit": "^0.24.1"
+    },
+    "devDependencies": {
+        "eslint": "^5.15.3",
+        "eslint-config-airbnb-base": "^13.1.0",
+        "eslint-plugin-import": "^2.16.0"
+    }
+}
