@@ -5,7 +5,7 @@ This is an automated reporting tool for my job
 # install
 
 ```js
-npm install @foxtail/weekly-report-git
+npm install -g @foxtail/weekly-report-git
 ```
 
 # usage

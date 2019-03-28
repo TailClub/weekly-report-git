@@ -14,8 +14,7 @@ async function init() {
   if (emptyProjects.length) {
     await createRespository(emptyProjects);
   }
-  const logs = await getRepositoryLog();
-  renderReport(logs);
+  renderReport(await getRepositoryLog());
 }
 
 init();
