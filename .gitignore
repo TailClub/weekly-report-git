@@ -1,3 +1,6 @@
+# Other
+.vscode
+
 # Logs
 logs
 *.log
@@ -59,3 +62,7 @@ typings/
 
 # next.js build output
 .next
+.vscode/launch.json
+config/index.js
+test/content.js
+test/singleTest.js
