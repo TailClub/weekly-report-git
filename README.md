@@ -43,3 +43,9 @@ module.exports = {
     ]
 }
 ```
+
+# change log
+
+## v1.2.0
+1. Getting commits from all branches without clone the project.
+2. Support commits data deduplication.

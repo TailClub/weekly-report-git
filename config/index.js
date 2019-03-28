@@ -13,7 +13,7 @@ module.exports = {
       name: 'Project name', // We often use chinese project name
       folder: 'Project folder', // Git folder name that based on git path.  [ PS: weekly-report-git ]
       path: 'Git path',
-      count: true, // whether to count
+      count: true, // Whether to count
     },
   ],
 };

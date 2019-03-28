@@ -1,6 +1,6 @@
 {
     "name": "@foxtail/weekly-report-git",
-    "version": "1.1.0",
+    "version": "1.2.0",
     "description": "This is an automated reporting tool for my weekly report",
     "main": "./bin/index.js",
     "bin": {
