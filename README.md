@@ -14,6 +14,10 @@ npm install @foxtail/weekly-report-git
 foxrpt
 ```
 
+# preview
+
+![](https://ws4.sinaimg.cn/large/006tKfTcgy1g1gnmhjnczj30sg1mh0uf.jpg)
+
 # config
 
 Please edit the config file and provide your repositories directory and so on
@@ -33,7 +37,8 @@ module.exports = {
         {
             name: 'Project name', // We often use chinese project name
             folder: 'Project folder', // Git folder name that based on git path.  [ PS: weekly-report-git ]
-            path: 'Git path'
+            path: 'Git path',
+            count: true // Whether to count
         }
     ]
 }
