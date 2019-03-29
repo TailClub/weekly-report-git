@@ -46,6 +46,9 @@ module.exports = {
 
 # change log
 
+## v1.2.2 - v1.2.3
+1. Update readme
+
 ## v1.2.1
 1. Fix statistical errors
 2. Fix deduplicaiton errors
